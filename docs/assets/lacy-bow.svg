@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 250">
+ <defs>
+  <linearGradient id="ivory" x2=".8" y2="1"><stop stop-color="#fffdf4"/><stop offset=".5" stop-color="#f7eedc"/><stop offset="1" stop-color="#e9d8bf"/></linearGradient>
+  <linearGradient id="satin" x2=".7" y2="1"><stop stop-color="#efdad5"/><stop offset=".5" stop-color="#d8b0b3"/><stop offset="1" stop-color="#bb919e"/></linearGradient>
+  <radialGradient id="pearl" cx=".35" cy=".3"><stop stop-color="#fffef8"/><stop offset=".6" stop-color="#f7ead7"/><stop offset="1" stop-color="#c8b498"/></radialGradient>
+  <pattern id="openwork" width="15" height="15" patternUnits="userSpaceOnUse">
+   <path d="m7.5 1 5.5 6.5-5.5 6.5L2 7.5Z" fill="none" stroke="#c8b99f" stroke-width=".7"/>
+   <circle cx="7.5" cy="7.5" r="1.5" fill="#dbcbb7"/>
+   <path d="M0 0h2M0 0v2m13 13h2v-2" stroke="#fffdf5" stroke-width="2"/>
+  </pattern>
+  <path id="left-loop" d="M110 66C88 48 57 21 28 36Q18 37 20 47q-11 5-4 14-7 9 2 15-2 11 9 13 1 13 14 12 4 12 17 8 11 9 23-2 15-6 29-25Z"/>
+  <path id="right-loop" d="M130 66c22-18 53-45 82-30 10 1 8 11 8 11 11 5 4 14 4 14 7 9-2 15-2 15 2 11-9 13-9 13-1 13-14 12-14 12-4 12-17 8-17 8-11 9-23-2-23-2-15-6-29-25-29-25Z"/>
+  <path id="left-tail" d="M109 80q-8 30-20 62-10 33-31 59l-7-8-10 4-5-9-10-1 6-11-5-8q40-26 64-93Z"/>
+  <path id="right-tail" d="M129 80q4 51 15 93 5 21 21 42l9-8 11 4 4-11 10-2-8-11 4-10q-30-36-47-100Z"/>
+ </defs>
+ <g stroke="#bda58f" stroke-width="1.3" stroke-linejoin="round">
+  <use href="#left-tail" fill="url(#ivory)"/><use href="#right-tail" fill="url(#ivory)"/>
+  <use href="#left-tail" fill="url(#openwork)" opacity=".8"/><use href="#right-tail" fill="url(#openwork)" opacity=".8"/>
+  <path d="M104 84q-16 66-63 100m96-100q14 84 47 119" fill="none" stroke="#fffdf3" stroke-width="7"/>
+  <path d="M105 84q-18 68-64 100m96-100q13 84 47 119" fill="none" stroke="#d6bcaf" stroke-width="1" stroke-dasharray="1 4"/>
+  <use href="#left-loop" fill="url(#ivory)"/><use href="#right-loop" fill="url(#ivory)"/>
+  <use href="#left-loop" fill="url(#openwork)" opacity=".8"/><use href="#right-loop" fill="url(#openwork)" opacity=".8"/>
+  <path d="M105 69Q61 38 32 48q8 23 39 39l34-12m30-6q44-31 73-21-8 23-39 39l-34-12" fill="url(#satin)" stroke="#c7a1a3"/>
+  <path d="M34 50q35 3 66 21M206 50q-35 3-66 21M48 72l47 5m97-5-47 5" fill="none" stroke="#f7e4db" stroke-width="2.2"/>
+  <path d="M109 57q11-4 22 0l5 29q-16 8-31 0Z" fill="url(#satin)"/>
+  <path d="M114 59q-4 13-2 25m14-24q5 12 3 23" fill="none" stroke="#f7e7dc" stroke-width="1.5"/>
+ </g>
+ <g fill="url(#pearl)" stroke="#bea78d" stroke-width=".7"><circle cx="120" cy="74" r="7"/><circle cx="119" cy="90" r="3"/><circle cx="118" cy="101" r="2.7"/><circle cx="117" cy="111" r="2.4"/><path d="M116 117q-7 9-1 13 7 0 1-13Z"/></g>
+</svg>
